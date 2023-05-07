@@ -16,6 +16,8 @@
         android:text="16:08 Силовая"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.543"
@@ -30,6 +32,8 @@
         android:text="15.05  Беговая"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView10"
+        app:layout_constraintHorizontal_bias="0.375"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.543"
@@ -42,6 +46,8 @@
         android:background="@null"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.439"
@@ -52,10 +58,11 @@
         android:id="@+id/textView"
         android:layout_width="54dp"
         android:layout_height="36dp"
-        android:layout_marginStart="16dp"
         android:layout_marginBottom="4dp"
         android:text="9:41"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="@+id/battery"
+        app:layout_constraintHorizontal_bias="0.03"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.687" />
@@ -68,9 +75,12 @@
         android:layout_marginBottom="18dp"
         android:background="@null"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/internet"
-        tools:layout_editor_absoluteX="291dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -99,15 +109,18 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="389dp"
-        android:layout_height="25dp"
+        android:layout_width="409dp"
+        android:layout_height="26dp"
         android:layout_marginTop="56dp"
         android:background="@drawable/shape"
         android:text="Тренировки"
         android:textColor="#FFFFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView3"
@@ -126,7 +139,7 @@
         android:id="@+id/textView4"
         android:layout_width="153dp"
         android:layout_height="43dp"
-        android:layout_marginStart="12dp"
+        android:layout_marginStart="16dp"
         android:text="Хорошей тренировки , Дмитрий!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -180,17 +193,6 @@
         tools:ignore="MissingConstraints" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="61dp"
-        android:layout_height="49dp"
-        android:background="@null"
-        android:scaleType="centerCrop"
-        app:srcCompat="@drawable/ic_launcher_adaptive_fore2"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="851dp"
-        tools:ignore="MissingConstraints" />
-
-    <ImageButton
         android:id="@+id/imageButton9"
         android:layout_width="61dp"
         android:layout_height="49dp"
@@ -227,13 +229,14 @@
         android:id="@+id/imageButton15"
         android:layout_width="72dp"
         android:layout_height="73dp"
-        android:layout_marginEnd="28dp"
         android:background="@null"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.91"
+        app:layout_constraintVertical_bias="0.911"
         app:srcCompat="@drawable/purple_circle_text"
         tools:ignore="MissingConstraints" />
 
@@ -285,15 +288,16 @@
         android:id="@+id/textView6"
         android:layout_width="92dp"
         android:layout_height="94dp"
-        android:layout_marginTop="484dp"
         android:background="@drawable/shape_3"
         android:scaleType="centerCrop"
         android:text="16:08 Силовая"
         android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.338"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -306,7 +310,7 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintHorizontal_bias="0.667"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.759"
@@ -322,6 +326,8 @@
         android:text="15.08 Беговая"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.543"
@@ -331,11 +337,12 @@
         android:id="@+id/textView8"
         android:layout_width="92dp"
         android:layout_height="94dp"
-        android:layout_marginStart="308dp"
         android:background="@drawable/shape_5"
         android:scaleType="centerCrop"
         android:text="16.08 Силовая"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.965"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.543"
@@ -360,12 +367,13 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:text="Предстоящие тренировки"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442"
+        app:layout_constraintVertical_bias="0.445"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -373,10 +381,11 @@
         android:layout_width="302dp"
         android:layout_height="187dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.211"
         app:srcCompat="@drawable/img_2023"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="67dp" />
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

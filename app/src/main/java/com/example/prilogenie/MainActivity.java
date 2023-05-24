@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(icicle);
         setContentView(R.layout.activity_main);
 
-        final ImageButton imageButton = (ImageButton) findViewById(R.id.imageButton15);
+        final ImageButton imageButton = (ImageButton) findViewById(R.id.imageButton5);
         imageButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
 
@@ -34,18 +34,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                startActivity(new Intent(MainActivity.this, ThirdActivity.class));
+                startActivity(new Intent(MainActivity.this, ThemActivity.class));
 
             }
         });
-        ImageButton button = (ImageButton)findViewById(R.id.imageButton5);
+        ImageButton button = (ImageButton)findViewById(R.id.imageButton15);
 
         button.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
 
-                startActivity(new Intent(MainActivity.this, FourActivity.class));
+                startActivity(new Intent(MainActivity.this, FourthActivity.class));
             }
         });
     }
